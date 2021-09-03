@@ -32,3 +32,7 @@ Clone the repository git clone https://github.com/kedarrnath/fourthfrontier.git
 • Right Click on testng.xml and Run
 
 • You should see all tests being run and their results in the Run tab in IntelliJ
+
+### Test Reports
+
+• Review test results in test-output folder
