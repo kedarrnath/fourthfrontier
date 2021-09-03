@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" thread-count="1">
+    <listeners>
+        <listener class-name="util.Listener"></listener>
+    </listeners>
+    <test name="SignIn" preserve-order="true">
+        <classes>
+            <class name="UiTests.SignInPageTest"></class>
+        </classes>
+    </test>
+    <test name ="CreateAccount">
+        <classes>
+        <class name="UiTests.CreateAccountPageTest"></class>
+        </classes>
+    </test>
+    <test name ="Login">
+        <classes>
+            <class name="UiTests.LoginTest"></class>
+        </classes>
+    </test>
+</suite>
