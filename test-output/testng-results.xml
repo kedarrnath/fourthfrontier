@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="50238" started-at="2021-09-03T03:51:21Z" finished-at="2021-09-03T03:52:11Z">
+    <groups>
+    </groups>
+    <test name="SignIn" duration-ms="13811" started-at="2021-09-03T03:51:21Z" finished-at="2021-09-03T03:51:35Z">
+      <class name="UiTests.SignInPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UiTests.SignInPageTest@90f6bfd]" name="setUp" is-config="true" duration-ms="9197" started-at="2021-09-03T09:21:21Z" finished-at="2021-09-03T09:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testWithEmptyEmail()[pri:0, instance:UiTests.SignInPageTest@90f6bfd]" name="testWithEmptyEmail" duration-ms="885" started-at="2021-09-03T09:21:30Z" finished-at="2021-09-03T09:21:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithEmptyEmail -->
+        <test-method status="PASS" signature="testWithExistingEmail()[pri:0, instance:UiTests.SignInPageTest@90f6bfd]" name="testWithExistingEmail" duration-ms="797" started-at="2021-09-03T09:21:31Z" finished-at="2021-09-03T09:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithExistingEmail -->
+        <test-method status="PASS" signature="testWithProperData()[pri:0, instance:UiTests.SignInPageTest@90f6bfd]" name="testWithProperData" duration-ms="1757" started-at="2021-09-03T09:21:32Z" finished-at="2021-09-03T09:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithProperData -->
+        <test-method status="PASS" signature="close()[pri:0, instance:UiTests.SignInPageTest@90f6bfd]" name="close" is-config="true" duration-ms="1161" started-at="2021-09-03T09:21:34Z" finished-at="2021-09-03T09:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="end()[pri:0, instance:UiTests.SignInPageTest@90f6bfd]" name="end" is-config="true" duration-ms="0" started-at="2021-09-03T09:21:35Z" finished-at="2021-09-03T09:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- UiTests.SignInPageTest -->
+    </test> <!-- SignIn -->
+    <test name="CreateAccount" duration-ms="15650" started-at="2021-09-03T03:51:35Z" finished-at="2021-09-03T03:51:51Z">
+      <class name="UiTests.CreateAccountPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UiTests.CreateAccountPageTest@13c78c0b]" name="setUp" is-config="true" duration-ms="8590" started-at="2021-09-03T09:21:35Z" finished-at="2021-09-03T09:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFieldValidations()[pri:1, instance:UiTests.CreateAccountPageTest@13c78c0b]" name="testFieldValidations" duration-ms="3610" started-at="2021-09-03T09:21:44Z" finished-at="2021-09-03T09:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFieldValidations -->
+        <test-method status="PASS" signature="testCreateAccountWithProperInformation()[pri:2, instance:UiTests.CreateAccountPageTest@13c78c0b]" name="testCreateAccountWithProperInformation" duration-ms="2718" started-at="2021-09-03T09:21:47Z" finished-at="2021-09-03T09:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAccountWithProperInformation -->
+        <test-method status="PASS" signature="close()[pri:0, instance:UiTests.CreateAccountPageTest@13c78c0b]" name="close" is-config="true" duration-ms="729" started-at="2021-09-03T09:21:50Z" finished-at="2021-09-03T09:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="end()[pri:0, instance:UiTests.CreateAccountPageTest@13c78c0b]" name="end" is-config="true" duration-ms="0" started-at="2021-09-03T09:21:51Z" finished-at="2021-09-03T09:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- UiTests.CreateAccountPageTest -->
+    </test> <!-- CreateAccount -->
+    <test name="Login" duration-ms="20761" started-at="2021-09-03T03:51:51Z" finished-at="2021-09-03T03:52:11Z">
+      <class name="UiTests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UiTests.LoginTest@7ca48474]" name="setUp" is-config="true" duration-ms="10152" started-at="2021-09-03T09:21:51Z" finished-at="2021-09-03T09:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:UiTests.LoginTest@7ca48474]" name="loginPage" duration-ms="96" started-at="2021-09-03T09:22:01Z" finished-at="2021-09-03T09:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="testInvalidCredentials()[pri:0, instance:UiTests.LoginTest@7ca48474]" name="testInvalidCredentials" duration-ms="1435" started-at="2021-09-03T09:22:01Z" finished-at="2021-09-03T09:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCredentials -->
+        <test-method status="PASS" signature="testLoginWithoutCredentials()[pri:0, instance:UiTests.LoginTest@7ca48474]" name="testLoginWithoutCredentials" duration-ms="3081" started-at="2021-09-03T09:22:02Z" finished-at="2021-09-03T09:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithoutCredentials -->
+        <test-method status="PASS" signature="testSuccessfulLogin()[pri:0, instance:UiTests.LoginTest@7ca48474]" name="testSuccessfulLogin" duration-ms="2960" started-at="2021-09-03T09:22:05Z" finished-at="2021-09-03T09:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:UiTests.LoginTest@7ca48474]" name="closeAll" is-config="true" duration-ms="3034" started-at="2021-09-03T09:22:08Z" finished-at="2021-09-03T09:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+        <test-method status="PASS" signature="end()[pri:0, instance:UiTests.LoginTest@7ca48474]" name="end" is-config="true" duration-ms="0" started-at="2021-09-03T09:22:11Z" finished-at="2021-09-03T09:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- UiTests.LoginTest -->
+    </test> <!-- Login -->
+  </suite> <!-- Test Suite -->
+</testng-results>
